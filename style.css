@@ -1,0 +1,395 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+    
+    
+}
+.navbar{
+    height: 60px;
+    background-color: rgb(4, 78, 4);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+.nav-logo{
+    height: 50px;
+    width:113px;
+}
+.logo{
+    background-image: url('amazon_logo.png');
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+/** box-2 : address **/
+
+.first-add{
+    color:#cccccc;
+    font-size: 1rem;
+    margin-left: 13px;
+}
+.add-icon{
+    display: flex;
+}
+.second-add{
+    color: white;
+    font-size:  1rem;
+    margin-left: 3px;
+}
+/** box-3: search bar in navigation**/
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    width: 800px;
+    background-color: blue;
+    border-radius: 5px;
+    margin:6px;
+
+}
+.nav-search:hover{
+    border:2px solid black;
+}
+.search-select{
+    width:50px;
+    background-color: #576c6b;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border:none;
+    font-size: 1rem;
+}
+.search-input{
+    width:100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: palevioletred;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 1.3rem;
+
+}
+/**box-4:language **/
+.nav-language{
+    height: 40px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+.language-logo{
+    background-image: url('america-flag.png');
+    background-size: cover;
+    height: 20px;
+    width:25px;
+}
+.language-selector{
+    width:45px;
+    background-color: rgb(4, 78, 4);
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+    
+}
+/** box-5:sign-in**/
+
+span{
+    font-size: 0.8rem;
+}
+.second-sign-in{
+    font: size 0.85rem;
+    font-weight:700;
+}
+/** box-6:orders & returns **/
+.orders{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/** box-7:cart **/
+.nav-cart{
+    display: flex;
+    align-items: center;
+}
+.nav-cart i{
+    font-size: 30px;
+}
+.cart-word{
+    font-size: 0.85rem;
+    font-weight: 700;
+    
+}
+/** panel**/
+.panel{
+    height: 40px;
+    background-color: rgb(2, 46, 2);
+    display: flex;
+    align-items: center;
+    color: white;
+   
+   
+}
+.panel-all{
+    display: flex;
+    flex-direction: start;
+    margin-left: 8px;
+    padding: 2px;
+    font-weight: 600;
+}
+.panel-options p{
+    display: inline;
+    padding: 10px;
+    font-weight: 600;
+} 
+.panel-options{
+    width:80%;
+    font-size: .85rem;
+    justify-content: space-around
+    ;
+}
+
+/**Hero-Section**/
+.hero-section{
+    background-image: url('hero-section.jpg');
+    height: 400px;
+    /* width: 100%; */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.hero-msg a{
+    color: skyblue;
+}
+.hero-msg a:hover{
+    color: orange;
+}
+
+/** shoping items list**/
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: black;
+    background-color: rgb(215, 191, 184);
+    padding-bottom: 20px;
+    margin-bottom: 5px;
+    
+}
+.box{
+    height: 400px;
+    width:23%;
+    background-color: white;
+    color: black;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    
+    
+}
+
+.box-img{
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+.box a{
+    color: skyblue;
+    margin-bottom: 1rem;
+}
+.box a:hover{
+    color: orange;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+/** sign in bottom**/
+.sign-in-bottom{
+    height: 89px;
+    width: 100%;
+    color: black;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.sign-in{
+    height: 30px;
+    width: 300px;
+    background-color: rgb(188, 167, 50);
+    border: 2px solid orange;
+    margin: 0.75rem;
+    padding: 5px;
+    font-weight: 700;
+    font-size: 1rem;
+}
+.sign-in-bottom a{
+    color: skyblue;
+}
+.sign-in-bottom a:hover{
+    color: orange;
+}
+/**footer **/
+.foot-panel-1{
+    height: 50px;
+    background-color: rgba(1, 13, 61, 0.808);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/**foot- panel -2**/
+.foot-panel-2{
+    background-color: rgb(3, 3, 55);
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    padding: 2rem;
+}
+.foot-panel-2 a{
+    display: block;
+    font-size: 0.9rem;
+    padding: 10px;
+    color: rgb(201, 198, 198);
+}
+.foot-panel-2 p{
+    font-size: 1.2rem;
+    font-weight: 550;
+}
+.foot-panel-3{
+    height: 150px;
+    background-color: rgba(1, 13, 61, 0.808);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.foot-panel-3-1{
+    height: 40px;
+    width: 100px;
+    padding: 3rem;
+}
+
+.foot-panel-3-logo{
+    background-image: url('amazon_logo.png');
+    background-size: cover;
+    height: 40px;
+    width: 100%;
+
+
+}
+.foot-panel-3-2{
+    height: 40px;
+    width: 120px;
+    border: 1.5px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem;
+}
+.foot-panel-3-2 i{
+    font-size: 1.5rem;
+}
+.foot-panel-3-2 select{
+    background-color: rgba(1, 13, 61, 0.808);
+    border: none;
+    font-size: 1rem;
+    font-weight: 550;
+    color: grey;
+}
+.foot-panel-3-3{
+    height: 40px;
+    width: 160px;
+    border: 1.5px solid white;
+    color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+}
+.foot-panel-3-4{
+    height: 40px;
+    width: 200px;
+    border: 1.5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.flag-logo{
+    background-image: url('america-flag.png');
+    background-size: cover;
+    height: 20px;
+    width: 30px;
+}
+.flag-state{
+    color: grey;
+    padding-left: 10px;
+}
+.foot-panel-3-4-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.foot-panel-4{
+    height: 90px;
+    background-color: black;
+    color: grey;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+}
+.foot-panel-4-1{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.foot-panel-4 a{
+    margin-left: .7rem;
+    margin-right: .7rem;
+}
+.foot-panel-4 p{
+    text-align: center;
+    margin-bottom: 5px;
+    /* padding-bottom: 1rem; */
+}
